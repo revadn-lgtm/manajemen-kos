@@ -7,7 +7,7 @@ $username = $_POST['username'];
 $password = md5($_POST['password']);
 
 $query = mysqli_query($conn,
-"SELECT * FROM users
+"SELECT * FROM users_reva_2430511041
 WHERE username='$username'
 AND password='$password'");
 

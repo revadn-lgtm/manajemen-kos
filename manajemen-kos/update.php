@@ -10,7 +10,7 @@ $ttd = $_POST['ttd'];
 
 $data = mysqli_query(
 $conn,
-"SELECT * FROM penghuni WHERE id='$id'"
+"SELECT * FROM penghuni_reva_2430511041 WHERE id='$id'"
 );
 
 $lama = mysqli_fetch_array($data);
@@ -44,7 +44,7 @@ if($ttd == ''){
 
 mysqli_query($conn,
 
-"UPDATE penghuni SET
+"UPDATE penghuni_reva_2430511041 SET
 
 nama='$nama',
 kamar='$kamar',

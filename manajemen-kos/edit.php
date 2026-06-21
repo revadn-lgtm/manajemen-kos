@@ -6,7 +6,7 @@ $id = $_GET['id'];
 
 $data = mysqli_query(
 $conn,
-"SELECT * FROM penghuni WHERE id='$id'"
+"SELECT * FROM penghuni_reva_2430511041 WHERE id='$id'"
 );
 
 $d = mysqli_fetch_array($data);

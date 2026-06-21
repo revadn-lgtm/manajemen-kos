@@ -22,7 +22,7 @@ $_FILES['ktp']['tmp_name'],
 
 mysqli_query($conn,
 
-"INSERT INTO penghuni
+"INSERT INTO penghuni_reva_2430511041
 (nama,kamar,telepon,foto,ktp,ttd)
 
 VALUES
